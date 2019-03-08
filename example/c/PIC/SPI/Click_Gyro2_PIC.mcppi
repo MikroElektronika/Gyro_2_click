@@ -1,0 +1,170 @@
+[DEVICE]
+Name=P18F87K22
+Clock=64000000
+[BUILD_TYPE]
+Value=0
+
+[MEMORY_MODEL]
+Value=0
+[ACTIVE_TAB]
+Value=Click_Gyro2_PIC.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+File0=Click_Gyro2_PIC.c
+File1=..\..\..\..\library\__gyro2_Driver.c
+Count=2
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+File0=Click_Gyro2_PIC.c
+Count=1
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Path0=..\..\..\..\library\HAL\
+Path1=..\..\..\..\library\
+Path2=D:\KOMPAJLERI\mikroC PRO for PIC\Packages\mikroBUS Board Definition API\Uses\
+Count=3
+[HEADER_PATH]
+Path0=..\..\..\..\library\
+Path1=..\..\..\..\library\HAL\
+Path2=D:\KOMPAJLERI\mikroC PRO for PIC\Packages\mikroBUS Board Definition API\Uses\
+Count=3
+[HEADERS]
+File0=..\..\..\..\library\__gyro2_driver.h
+File1=Click_Gyro2_config.h
+File2=Click_Gyro2_types.h
+Count=3
+[PLDS]
+File0=Click_Gyro2.pld
+Count=1
+[Useses]
+File0=Conversions
+File1=C_String
+File2=I2C
+File3=SPI
+File4=UART
+File5=easypicpro_v7_P18F87K22
+Count=6
+[EXPANDED_NODES]
+0=Click_Gyro2_PIC.mcppi
+19=Project Level Defines
+Count=2
+[LIB_EXPANDED_NODES]
+0=mikroE Libraries
+1=System Libraries
+2=ADC
+9=CAN_SPI
+18=Compact_Flash
+30=Compact_Flash_FAT16
+45=Conversions
+72=C_Math
+108=C_String
+128=C_Type
+141=EEPROM
+144=EPSON_S1D13700
+181=FLASH
+187=Glcd
+222=I2C
+246=Keypad4x4
+258=Manchester
+265=MemManager
+271=Mmc
+280=Mmc_FAT16
+313=One_Wire
+317=Port_Expander
+350=PS2
+353=PWM
+394=RS485
+401=Software_I2C
+408=Software_SPI
+412=Software_UART
+420=SPI
+432=SPI_Ethernet
+485=SPI_Ethernet_24j600
+539=SPI_Glcd
+587=SPI_T6963C
+631=STMPE610
+665=T6963C
+697=TFT
+732=TFT_16bit
+767=TFT_16bit_Defs
+803=TFT_Defs
+843=TFT_TouchPanel
+854=Time
+857=TouchPanel
+866=Trigonometry
+869=UART
+891=mikroSDK Libraries
+892=mikroBUS Board Definition API
+893=easypicpro_v7_P18F87K22
+898=Click Libraries
+899=Microwave 2 Click
+900=Microwave2_P18
+909=Additional Libraries
+910=FAT32 Library
+911=FAT32
+948=FAT32_Driver
+958=FT800
+959=FT800
+1289=FT810
+1290=FT810
+1637=FT812
+1638=FT812
+1985=Third Party Libraries
+1986=Click_GSM-GPS
+1987=GSM-GPS_Adapter
+1992=GSM-GPS_Engine
+1998=GSM-GPS_HAL
+2005=GSM-GPS_Parser
+2009=GSM-GPS_Timer
+2016=MiWi Click
+2017=MiWi_P18
+2029=UV 4 Click
+2030=UV_4_P18
+2039=Click_S7X10G_PIC
+2040=7x10_G_LED_Matrix
+2050=7x10_G_LED_Matrix_HAL
+2054=Click_Accel3
+2055=Accel3_API
+2064=Accel3_HAL
+2068=Accel3_HW
+2140=LoRa 2 Click
+2141=LoRa_2_P18
+2155=Air quality 3 Click
+2156=AirQuality3_P18
+2174=Heart Rate 5 Click
+2175=Heart_Rate_5_P18
+2188=Proximity 5 Click
+2189=Proximity_5_P18
+2200=Pressure 4 Click
+2201=Pressure_4_P18
+2221=Brushless 5 Click
+2222=Brushless5_P18
+2228=ClockGen 2 Click
+2229=ClockGen2_P18
+2242=Heart Rate 7 Click
+2243=HeartRate7_P18
+2256=Hz to V 2 Click
+2257=HztoV2_P18
+2261=Hall current 2 Click
+2262=HallCurrent_2_P18
+2268=Cap Slider Click
+2269=Cap_Slider_P18
+2275=Multimeter Click
+2276=Multimeter_P18
+Count=102

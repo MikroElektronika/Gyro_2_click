@@ -1,0 +1,8 @@
+unit Click_Gyro2_config;
+
+uses Click_Gyro2_types;
+
+const
+    _GYRO2_I2C_CFG : array[2] of uint32_t = (_I2CM_SPEED_MODE_STANDARD, _I2CM_SWAP_DISABLE); 
+    
+end.
